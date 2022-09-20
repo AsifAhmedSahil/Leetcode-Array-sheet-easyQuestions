@@ -15,16 +15,28 @@ def romanToInt( s: str) -> int:
         total = 0
         prev = 0
         curr = 0
-        
+
         for i in range(len(s)):
             curr = dict[s[i]]
-            
-            if curr > prev:
-                total = total + curr - 2*prev
+
+            if (curr > prev):
+                total = total + curr - 2 * prev 
             else:
-                total += curr
+                total+= curr
             
             prev = curr
         return total
+       
 
 print(romanToInt('IXV'))
+
+
+
+
+
+
+
+
+
+ 
+       
