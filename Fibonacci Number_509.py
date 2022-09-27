@@ -6,3 +6,5 @@ def Fibonacci(n):
     return seen[n]
 
 print(Fibonacci(6))
+
+# this is best for timing 
