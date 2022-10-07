@@ -1,8 +1,8 @@
 
-def maxProfit(self, prices: list[int]) -> int:
+def maxProfit(prices) :
         
         maxProfit = 0
-        minprice = 0
+        minprice = float('inf')
         
         for i in range(len(prices)):
             if(prices[i] < minprice):
